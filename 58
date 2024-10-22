@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A romantic webpage for Manar">
+    <title>For My Bunny - Manar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Dancing Script', cursive;
+            background-color: #ffc0cb;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .section {
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 80%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #ff1493;
+            font-size: 2.5em;
+        }
+        .love-letter {
+            font-size: 1.4em;
+            color: #ff69b4;
+        }
+        .gallery img {
+            width: 150px;
+            margin: 10px;
+            border: 3px solid #ff69b4;
+            border-radius: 10px;
+        }
+        .hearts {
+            font-size: 50px;
+            color: #ff1493;
+            animation: floatingHearts 3s infinite;
+        }
+        @keyframes floatingHearts {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .lollipop {
+            font-size: 50px;
+            color: #ff69b4;
+        }
+        .cute-pandas-rabbits img {
+            max-width: 150px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>For My Bunny - Manar</h1>
+    <p>Dedicated to the prettiest girl in the world🐇!</p>
+</header>
+
+<section class="section love-letter">
+    <h2>My Love Letter to You</h2>
+    <p>
+        My Pretty Manar, <br>
+        You are my bunny, my princess. Every moment with you feels like a dream I never want to wake up from. 
+        Just like pandas you're —gentle and adorable—you fill my life with love, happiness, and the cutest smiles.
+        I adore you with all my heart, and I can't wait for all the memories we'll make together. <br>
+        I wish you could forgive me for my mistakes. You are everything beautiful in my life, and I love you endlessly. <br><br>
+        Love, Khalil 💕
+    </p>
+    <p class="hearts">💖💙❤️💖</p>
+</section>
+
+    </div>
+</section>
+
+<footer>
+    <p>🐼🍭Kisses and Head pats to my amazing girl!🐼🍭 </p>
+</footer>
+
+</body>
+</html>
+<div id="messages">
+    <p class="message" style="display:none;">"You are my whole world!"</p>
+    <p class="message" style="display:none;">"Every day with you is a gift!"</p>
+    <p class="message" style="display:none;">"I love you Manoory"</p>
+</div>
+<button onclick="showMessage()">Click to Reveal Love Notes 💖</button>
+
+<script>
+    let index = 0;
+    function showMessage() {
+        const messages = document.querySelectorAll('.message');
+        if (index < messages.length) {
+            messages[index].style.display = 'block';
+            index++;
+        }
+    }
+</script>
+<section class="section love-reasons">
+    <h2>Why I Love You</h2>
+    <ul>
+        <li>#1 Pretty face.</li>
+        <li>#2 You make me smile a lot.</li>
+        <li>#3 Your kindness.</li>
+        <li>#4 Did I mention your pretty face?</li>
+        <li>#5 Your angelic voice.</li>
+    </ul>
+</section>
+
+<style>
+    .love-reasons ul {
+        list-style-type: none;
+        padding: 0;
+        font-size: 1.4em;
+        color: #ff69b4; /* Match the pink color */
+    }
+    .love-reasons li {
+        margin-bottom: 10px;
+    }
+</style>
+<section class="section song-section">
+    <h2>Songs</h2>
+    <p>Some songs for you to listen to when you think of me:</p>
+    <ul>
+        <li>
+            <a href="https://open.spotify.com/album/2vk0n8aeQSO74VtQBbNDPR?si=xqV81_MzRiysnXDSLYRcyQ" target="_blank">Falling into you</a>
+        </li>
+        <li>
+            <a href="https://open.spotify.com/track/3U4isOIWM3VvDubwSI3y7a?si=EJnVGECdQVacj1jrhB4lzA" target="_blank">All of me</a>
+        </li>
+        <li>
+            <a href="https://open.spotify.com/track/0U10zFw4GlBacOy9VDGfGL?si=2Hnt1IhYTwGs3U-mikdAMw" target="_blank">We found love</a>
+        </li>
+    </ul>
+</section>
+
+<style>
+    .song-section {
+        background-color: #ffeef8;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        max-width: 80%;
+    }
+    .song-section h2 {
+        color: #ff1493;
+        font-size: 2.5em;
+    }
+    .song-section p {
+        font-size: 1.2em;
+        color: #333;
+    }
+    .song-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .song-section li {
+        margin: 10px 0;
+    }
+    .song-section a {
+        text-decoration: none;
+        color: #ff69b4;
+        font-size: 1.1em;
+    }
+</style>
